@@ -1,1 +1,0 @@
-# geniunegenius.github.io
