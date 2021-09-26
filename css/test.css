@@ -1,0 +1,70 @@
+.right {
+  position: relative;
+  background: #d86c70;
+  text-align: right;
+  color:#e1ceb1;
+  margin-top:10px;
+  width:auto;
+  min-width: auto;
+  max-width: 60%;
+  padding: 22.5px 15px 22.5px 15px;
+  border-radius: 10px;
+  border: 1px solid #d86c70;
+  float: right;
+  right: 20px;
+}
+
+.right::before {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: -1px;
+  right: -10px;
+  border: 10px solid transparent;
+  border-top: 12px solid #d86c70;
+}
+
+.right::after {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: 0px;
+  right: -8px;
+  border: 10px solid transparent;
+  border-top: 12px solid #d86c70;
+  clear: both;
+}
+div{
+  clear: right;
+}
+
+.right {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.name, 
+.time {
+  position: absolute;
+  font-size: 12.5px;
+}
+
+.name {
+  top: -7px;
+  color: #ddb0a0;
+}
+
+.right .name {
+  left: 15px;
+
+}
+
+.time {
+  bottom: -7px;
+  color: #ddb0a0;
+}
+
+.right .time {
+  right: 15px;
+}
